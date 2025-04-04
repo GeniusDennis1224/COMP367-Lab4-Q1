@@ -29,4 +29,6 @@ steps:
   inputs:
     command: push
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+    publishFeedCredentials: true
+    nuGetFeedType: internal
     publishVstsFeed: 'dennisliu1224/StringExtensionFeed'
