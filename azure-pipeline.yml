@@ -29,4 +29,4 @@ steps:
   inputs:
     command: push
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
-    publishVstsFeed: 'dennisliu1224/StringExtensionFeed2'
+    publishVstsFeed: 'COMP367-Lab4-Q1/StringExtensionFeed2'
